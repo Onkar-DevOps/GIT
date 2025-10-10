@@ -1,1 +1,3 @@
-git push 
+git push : push the changes from local repo to repmote repo
+git pull : this command will fetch and merge the changes.
+git fetch : it will fetch the changes from remote repo to the local repo.
