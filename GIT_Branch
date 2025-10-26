@@ -1,6 +1,10 @@
 git checkout -b OKH : Create new branch OKH and swtich to that branch
 git checkout main: Switch to main branch
 git push -u origin feature/OKH : This will push the local branch to remote repo and sets the tracking relationship
+git merge feature/OKH : Merging branch locally.
+git branch -d branchname : delete branch
+git branch -a : List all the branch.
+git push origin :branchname : This comamand will delete the remote branch from command line.
 
 
 
