@@ -1,0 +1,9 @@
+git checkout -b OKH : Create new branch OKH and swtich to that branch
+git checkout main: Switch to main branch
+git push -u origin feature/OKH : This will push the local branch to remote repo and sets the tracking relationship
+
+
+
+When you run git clone https://github.com/user/repo.git, Git automatically names the remote origin.
+Option	Equivalent To	Description
+-u	   --set-upstream	Sets the upstream (tracking) branch for your current local branch during a push
