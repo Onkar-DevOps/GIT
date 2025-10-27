@@ -11,4 +11,5 @@ git tag: list all the tags
 git tag tagname branchname : This will assign tag to the branch.
         Tags are linked to branch and commit id. 
         If the new commit is done after assigning tag to the branch then tag will not move to the head of the branch. it will be still pointing to the previous commit.
-git tag -a v1.0 -m "Commented tag" commitid : This git tag is annotated with additional commit information.        
+git tag -a v1.0 -m "Commented tag" commitid : This git tag is annotated with additional commit information.
+git show tagname : This shows the full information about the tag.        
