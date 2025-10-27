@@ -5,3 +5,6 @@ Git push fails if the local repo is not aligned with remote repo. Hence it will 
 
 git remote set-url origin <giturl> : This command will point to the new GIT URL.
 git show ca4fcd3c923d3fce3c0cba549a987b4e81767725 : this command shows all the details of the commit
+
+git log --oneline : Shows commit history.
+git tag: list all the tags
