@@ -12,4 +12,11 @@ git tag tagname branchname : This will assign tag to the branch.
         Tags are linked to branch and commit id. 
         If the new commit is done after assigning tag to the branch then tag will not move to the head of the branch. it will be still pointing to the previous commit.
 git tag -a v1.0 -m "Commented tag" commitid : This git tag is annotated with additional commit information.
-git show tagname : This shows the full information about the tag.        
+git show tagname : This shows the full information about the tag.      
+git push origin tagname : This will push the tags to remote repo.
+        Bydefaul git push dont push tags.
+git push --tags : This will push all the tags to remote repo.
+git tag -d tagname : This will delete the local tag.
+git push origin :tagname : This will delete the remote tag.
+git tag -f tagname commitid : This will forcefully move the tag to the new commit id.
+git push origin tagname --force : This will forcefully move the remote tag to new commit id.
