@@ -1,0 +1,22 @@
+git push : push the changes from local repo to repmote repo
+git pull : this command will fetch and merge the changes.
+git fetch : it will fetch the changes from remote repo to the local repo.
+Git push fails if the local repo is not aligned with remote repo. Hence it will ask you to fetch first.
+
+git remote set-url origin <giturl> : This command will point to the new GIT URL.
+git show ca4fcd3c923d3fce3c0cba549a987b4e81767725 : this command shows all the details of the commit
+
+git log --oneline : Shows commit history.
+git tag: list all the tags
+git tag tagname branchname : This will assign tag to the branch.
+        Tags are linked to branch and commit id. 
+        If the new commit is done after assigning tag to the branch then tag will not move to the head of the branch. it will be still pointing to the previous commit.
+git tag -a v1.0 -m "Commented tag" commitid : This git tag is annotated with additional commit information.
+git show tagname : This shows the full information about the tag.      
+git push origin tagname : This will push the tags to remote repo.
+        Bydefaul git push dont push tags.
+git push --tags : This will push all the tags to remote repo.
+git tag -d tagname : This will delete the local tag.
+git push origin :tagname : This will delete the remote tag.
+git tag -f tagname commitid : This will forcefully move the tag to the new commit id.
+git push origin tagname --force : This will forcefully move the remote tag to new commit id.
